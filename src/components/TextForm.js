@@ -26,10 +26,10 @@ export default function TextForm(props) {
     }
 
   return (
-    <div>
+    <div className="body_textform">
         <h2>{props.heading}</h2>
         <div className="mb-3 my-3">
-        <textarea className="form-control" value= {text} onChange={onchange} id="exampleFormControlTextarea1" rows="8"></textarea>
+        <textarea className="form-control" value= {text} onChange={onchange} id="exampleFormControlTextarea1" rows="6"></textarea>
         </div>
         <button type="button" className="btn btn-primary mx-2" onClick={upperclick} >To Uppercase</button>
         <button type="button" className="btn btn-primary mx-2 " onClick={lowerclick}>To Lowercase</button>
