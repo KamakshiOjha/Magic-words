@@ -1,0 +1,79 @@
+.title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .add-button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .book-list li button {
+    margin-left: 10px;
+    padding: 3px 8px;
+    background-color: #e53935;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .join-request-form {
+    margin-top: 20px;
+  }
+  
+  .join-request-form h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .join-request-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .join-request-form .input-field {
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  .join-request-form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 100px;
+  }
+  
+  .join-request-form .submit-button {
+    padding: 5px 10px;
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

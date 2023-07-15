@@ -26,24 +26,24 @@ export default function TextForm(props) {
     }
 
   return (
-    <div className="body_textform">
+    <div className="">
         <h2>{props.heading}</h2>
-        <div className="mb-3 my-3">
-        <textarea className="form-control" value= {text} onChange={onchange} id="exampleFormControlTextarea1" rows="6"></textarea>
+        <div className="">
+        <textarea className="" value= {text} onChange={onchange} id="" rows="6"></textarea>
         </div>
-        <button type="button" className="btn btn-primary mx-2" onClick={upperclick} >To Uppercase</button>
-        <button type="button" className="btn btn-primary mx-2 " onClick={lowerclick}>To Lowercase</button>
-        <button type="button" className="btn btn-primary mx-2 " onClick={clearclick}>To clear</button>
-        <div className="container my-3">
+        <button type="button" className="" onClick={upperclick} >To Uppercase</button>
+        <button type="button" className="" onClick={lowerclick}>To Lowercase</button>
+        <button type="button" className="" onClick={clearclick}>To clear</button>
+        <div className="">
             <h3>your text has</h3>
             <p>{text.split(" ").length} word  and {text.length} characters</p>
         </div>
-        <div className="container my-3">
+        <div className="">
             <h3>you can read this text in</h3>
             <p>{0.008 * text.split(" ").length} minutes</p>
         </div>
 
-        <div className="container my-3">
+        <div className="">
             <h3>Preview</h3>
             <p>{text}</p>
         </div>

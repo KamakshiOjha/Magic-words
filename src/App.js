@@ -1,26 +1,35 @@
 import './App.css';
-import Alert from './components/Alert';
+
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import About from './components/About';
 import { BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
-import Comunity from './components/Comunity';
-import Join from './components/Join';
-import Profile from './components/Profile';
+
+import LoginPage from './components/Login';
+
+
+import ReviewBlock from './components/Review';
+
+
+
+
 
 
 function App() {
   return (
     <BrowserRouter>
     <Navbar title="Magic words" />
-     <Alert alert="Enter valid symbols" />
+
+
     <Routes>
     <Route path='/about' element={<About title= "About us"/>}/>
     <Route path='/' element={<TextForm heading="Enter the Text"/>}/>
+    <Route path='/login' element={<LoginPage/>}/> 
 
-    <Route path='/comunity' element={<Comunity title = "MEMBERS"/>}/>
-    <Route path='/join' element={<Join title = "CONTACT US" />}/>
-    <Route path='/profile' element={<Profile title = "MAGIC WORDS" />}/>
+
+    <Route path='/review' element={<ReviewBlock/>}/> 
+
+    {/* <Route path='/profile' element={<Profile title = "MAGIC WORDS" />}/> */}
     
     </Routes>
     </BrowserRouter>

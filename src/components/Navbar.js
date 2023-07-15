@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import 'bootstrap/dist/css/bootstrap.css';
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
+import './Navbar.css';
 
 
 export default function Navbar(props) {
@@ -15,51 +15,28 @@ export default function Navbar(props) {
 
     // }
   return (
-    <div>
-            <nav className="navbar navbar-expand-xxl navbar-dark bg-dark nav_bar_self">
-        <Link className="navbar-brand heading1" to="/">{props.title}</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-        </button>
-        <form className="d-flex search_bar">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button  formAction='' formTarget='_blank' formMethod='get' className="btn btn-primary button1" type="submit">Search</button>
-        </form>
+<>
+        
+        <div class="nav">
 
-        <div className="collapse navbar-collapse icons" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
-                <li className="nav-item active">
-                    <Link className="nav-link tab1" to="/">Home</Link>
-                </li>
-                <li className="nav-item">
-                    <Link to="/about" className="nav-link tab2" >About</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link tab3" to="/comunity">Community</Link>
-                </li>
-                 <li className="nav-item">
-                    <Link className="nav-link tab4" to="/join">Join</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link tab5" to="/profile">Profile</Link>
-                </li>
-                {/* <li className="nav-item">
-                    <Link className="nav-link tab6" to="/">Wishlist</Link>
-                </li>
-                <li className="nav-item">
-                    <Link className="nav-link tab7" to="/">Cart</Link>
-                </li>  */}
-            
-            </ul>
-                
+        <div class="nav_bar_fixed">
+        
+        <div class="nav_left">
+        <Link class="a_1" to="/">{props.title}</Link>
         </div>
-        {/* <div className="form-check form-switch">
-                <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked/>
-                <label className="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
-                </div> */}
-    </nav>     
-    
-</div>
+        <div class="nav_right">
+                <ul class="ul a_1">
+                
+                <li><Link class="a_1" to="/">Home</Link></li>
+                <li><Link to="/about" class="a_1" >About</Link></li>
+                <li><Link class="a_1" to="/login">Profile</Link></li>
+                <li><Link class="a_1" to="/review">Review</Link></li> 
+
+                </ul>            </div>
+            </div>
+        </div>
+        </> 
+
   );
 }
 
