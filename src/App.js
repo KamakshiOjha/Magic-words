@@ -4,10 +4,6 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import About from './components/About';
 import { BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
-
-import LoginPage from './components/Login';
-
-
 import ReviewBlock from './components/Review';
 
 
@@ -24,12 +20,7 @@ function App() {
     <Routes>
     <Route path='/about' element={<About title= "About us"/>}/>
     <Route path='/' element={<TextForm heading="Enter the Text"/>}/>
-    <Route path='/login' element={<LoginPage/>}/> 
-
-
-    <Route path='/review' element={<ReviewBlock/>}/> 
-
-    {/* <Route path='/profile' element={<Profile title = "MAGIC WORDS" />}/> */}
+    <Route path='/review' element={<ReviewBlock/>}/>
     
     </Routes>
     </BrowserRouter>

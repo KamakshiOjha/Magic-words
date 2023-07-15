@@ -1,0 +1,37 @@
+.textform{
+    margin: 2% 5% 3% 5%;
+    padding: 1%;
+    background-color: #C5DFF8 ;
+
+}
+.h2_tf{
+    font-size: 30px;
+}
+.textform_in{
+
+    width: auto;
+}
+.text{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 30vh;
+    width: 70vw;
+    mix-blend-mode:darken;
+}
+.button_tf{
+    padding: 1%;
+    border: 0;
+    border-radius: 5%;
+    margin: 0% 1% 1% 0%;
+    color: white;
+    background-color: #212A3E;
+    font-size: 17px;
+}
+.textform_2{
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.para_tf{
+  font-size: 20px;
+  margin-top: 0.5%;
+}
