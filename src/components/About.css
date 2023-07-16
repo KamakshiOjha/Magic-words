@@ -1,0 +1,33 @@
+.about{
+    margin: 3%;
+
+}
+.about_in{
+    margin: 2%;
+    padding: 4%;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right,#C5DFF8, #7895CB);
+    
+}
+.h5_about{
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+.about_in_1{
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+.a_tag{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 2%;
+}
+.a_tag:hover{
+    color: grey;
+}
+.para_about{
+    margin-top: 1%;
+    font-size: 17px;
+}

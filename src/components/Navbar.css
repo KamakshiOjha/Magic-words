@@ -72,9 +72,13 @@
     float: right;
     text-align: center;
 }
-
+.title{
+    color: white;
+    font-size: 19px;
+}
 .a_1 {
     color: white;
+
 }
 
 .a_1:hover {

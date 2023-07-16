@@ -22,17 +22,16 @@ export default function Navbar(props) {
         <div class="nav_bar_fixed">
         
         <div class="nav_left">
-        <Link class="a_1" to="/">{props.title}</Link>
+        <Link class="title" to="/">{props.title}</Link>
         </div>
         <div class="nav_right">
                 <ul class="ul a_1">
                 
                 <li><Link class="a_1" to="/">Home</Link></li>
-                <li><Link to="/about" class="a_1" >About</Link></li>
-                <li><Link class="a_1" to="/login">Profile</Link></li>
-                <li><Link class="a_1" to="/review">Review</Link></li> 
+                <li><Link to="/about" class="a_1" >About</Link></li> 
 
-                </ul>            </div>
+                </ul>           
+                 </div>
             </div>
         </div>
         </> 
