@@ -5,4 +5,4 @@ Welcome to Magic Words, the ultimate online destination for all your letter case
 
 ![screencapture-localhost-3002-2023-07-16-14_53_43](https://github.com/KamakshiOjha/Magic-words/assets/114620432/ae781611-49d9-4f79-837e-e13191997541)
 
-![screencapture-localhost-3002-2023-07-16-14_53_43](https://github.com/KamakshiOjha/Magic-words/assets/114620432/d24cda08-f1f3-4f6b-9a8f-6b095c8baf0b)
+![screencapture-localhost-3002-about-2023-07-16-14_55_19](https://github.com/KamakshiOjha/Magic-words/assets/114620432/e584685a-5989-4c69-9cfc-8f05ba5bf630)
